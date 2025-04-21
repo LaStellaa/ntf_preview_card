@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>NFT preview card component</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 1rem;
+      }
+      .attribution a {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article class="card">
+        <div class="card__image">
+          <img
+            class="card__image-main"
+            src="./images/image-equilibrium.jpg"
+            alt="image of a cube"
+          />
+          <div class="card__overlay">
+            <img src="./images/icon-view.svg" alt="eye icon" />
+          </div>
+        </div>
+        <h1 class="card__title">Equilibrium #3429</h1>
+        <p class="card__text">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <section class="card__infos">
+          <div class="card__price">
+            <img
+              class="card__price-icon"
+              src="./images/icon-ethereum.svg"
+              alt="icon of ethereum"
+            />
+            <span class="card__price-text">0.041 ETH</span>
+          </div>
+          <div class="card__time">
+            <img
+              class="card__time-icon"
+              src="./images/icon-clock.svg"
+              alt="icon of a clock"
+            />
+            <span class="card__time-text">3 days left</span>
+          </div>
+        </section>
+        <footer class="card__footer">
+          <img
+            class="card__footer-image"
+            src="./images/image-avatar.png"
+            alt="avatar"
+          />
+          <p class="card__footer-text">
+            Creation of
+            <span class="card__footer-text--name">Jules Wyvern</span>
+          </p>
+        </footer>
+      </article>
+    </main>
+    <div class="attribution">
+      Coded by <a href="https://github.com/LaStellaa">LaStellaa</a>.
+    </div>
+  </body>
+</html>
